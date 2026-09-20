@@ -1,0 +1,17 @@
+{
+  "name": "thebeanboyo.github.io",
+  "version": "1.0.0",
+  "description": "To be filled!",
+  "homepage": "https://github.com/thebeanboyo/thebeanboyo.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/thebeanboyo/thebeanboyo.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebeanboyo/thebeanboyo.github.io.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "handler.js"
+}

@@ -29,11 +29,15 @@
             <input type="text" id="marking7" name="marking7"><br>
             <input type="text" id="marking8" name="marking8"><br>
             <input type="text" id="marking9" name="marking9"><br>
-            <input type="text" id="marking10" name="marking10"><br><br>
+            <input type="text" id="marking10" name="marking10"><br>
+            <label for="markings">Threshhold:</label><br>
+            <input type="number" id="threshhold" name="threshhold", min="1", max="15"><br><br>
             <input type="submit" value="Search!">
         </form>
     </div>
+    <div class = "result-div">
+    </div>
 </body>
 
-<script src="handler.js" src="rl-directory.json"></script>
+<script src="handler.js" type = "module"></script>
 </html>
