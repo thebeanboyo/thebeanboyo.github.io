@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
+
+:root{
+    --primary-text: rgb(221, 193, 208);
+    --box-text: rgb(51, 22, 38);
+
+    --primary-bg: rgba(196, 135, 168, 0.7);
+    --secondary-bg: rgba(196, 135, 168, 0.5);
+}
+
+body{
+    background: url('https://static.lioden.com/images/dynamic/backgrounds/solitude_02.png') fixed;
+    background-size: 100%;
+    font-family: "Open Sans";
+}
+
+
+label{
+    margin: 6px, auto 2px auto;
+    padding: 6px;
+}
+
+h1{
+    text-align: center;
+    margin-top:2%;
+    color: var(--primary-text);
+}
+
+input#base, input#skin, input#eyes, input#maneshape, input#manecol{
+    margin: 0px auto 12px 1em;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 17px;
+    width:80%;
+    max-width: 12em;
+}
+
+input#threshhold{
+    margin: 0px auto 12px 1em;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+input#base::placeholder, input#skin::placeholder, input#eyes::placeholder, input#maneshape::placeholder, input#manecol::placeholder{
+    display: inline;
+    float: left;
+    color: red;
+    opacity: 0.6;
+    font-size:0.7em;
+    font-style: italic;
+    vertical-align:10%;
+}
+
+label {
+    font-weight: bold;
+}
+
+input#marking{
+    margin: 1px auto auto 1em;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 17px;
+    width:80%;
+    max-width: 12em;
+}
+
+input#marking::placeholder{
+    font-size:0.7em;
+    font-style: italic;
+    vertical-align:10%;
+}
+
+
+.main-page{
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: center;
+    background: var(--secondary-bg);
+    color: var(--box-text);
+    width: 75%;
+    padding: 2.5em;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+div.form-div{
+    flex: 1;
+    margin: 1em;
+    justify-content: left;
+    background: var(--primary-bg);
+    border-radius: 5px;
+    padding:1em;
+    height: 47em;
+    position: relative;
+    overflow-y: scroll;
+    min-width: 20em;
+}
+
+div.result-div{
+    flex: 3;
+    width: 75%;
+    justify-content: right;
+    background: var(--primary-bg);
+    border-radius: 5px;
+    margin: 1em;
+    padding:1em;
+    position: relative;
+    overflow: scroll;
+    height: 47em;
+    min-width:20em;
+}
+
+div.custom-html{
+    position: absolute;
+    left: 2em;
+}

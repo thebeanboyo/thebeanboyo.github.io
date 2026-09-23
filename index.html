@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="style.css">
     <title>RLC Search</title>
 </head>
 
 <body>
-    <h1>Header1</h1>
-    <p id = 'test'>Text</p>
-    <div class = "form-div">
-        <form id = "main-form">
-            <label for="base">Base:</label><br>
-            <input type="text" id="base" name="base"><br>
-            <label for="skin">Skin Color:</label><br>
-            <input type="text" id="skin" name="skin"><br>
-            <label for="eyes">Eye Color:</label><br>
-            <input type="text" id="eyes" name="eyes"><br>
-            <label for="mane shape">Mane Shape:</label><br>
-            <input type="text" id="mane shape" name="mane shape"><br>
-            <label for="mane col">Mane Color:</label><br>
-            <input type="text" id="mane col" name="mane col"><br>
-            <label for="markings">Markings:</label><br>
-            <input type="text" id="marking1" name="marking1"><br>
-            <input type="text" id="marking2" name="marking2"><br>
-            <input type="text" id="marking3" name="marking3"><br>
-            <input type="text" id="marking4" name="marking4"><br>
-            <input type="text" id="marking5" name="marking5"><br>
-            <input type="text" id="marking6" name="marking6"><br>
-            <input type="text" id="marking7" name="marking7"><br>
-            <input type="text" id="marking8" name="marking8"><br>
-            <input type="text" id="marking9" name="marking9"><br>
-            <input type="text" id="marking10" name="marking10"><br>
-            <label for="markings">Threshhold:</label><br>
-            <input type="number" id="threshhold" name="threshhold", min="1", max="15"><br><br>
-            <input type="submit" value="Search!">
-        </form>
+    <h1>Raffle Lioness Search Tool</h1>
+    <div class = "main-page">
+        <div class = "form-div">
+            <form id = "main-form" autocomplete="off">
+                <label for="base">Base:</label><br>
+                <input type="text" id="base" name="base"><br>
+                <label for="skin">Skin Color:</label><br>
+                <input type="text" id="skin" name="skin"><br>
+                <label for="eyes">Eye Color:</label><br>
+                <input type="text" id="eyes" name="eyes"><br>
+                <label for="mane shape">Mane Shape:</label><br>
+                <input type="text" id="maneshape" name="maneshape"><br>
+                <label for="mane col">Mane Color:</label><br>
+                <input type="text" id="manecol" name="manecol"><br>
+                <label for="markings">Markings:</label><br>
+                <input type="text" id="marking" name="marking1" placeholder ="Slot 1"><br>
+                <input type="text" id="marking" name="marking2" placeholder ="Slot 2"><br>
+                <input type="text" id="marking" name="marking3" placeholder ="Slot 3"><br>
+                <input type="text" id="marking" name="marking4" placeholder ="Slot 4"><br>
+                <input type="text" id="marking" name="marking5" placeholder ="Slot 5"><br>
+                <input type="text" id="marking" name="marking6" placeholder ="Slot 6"><br>
+                <input type="text" id="marking" name="marking7" placeholder ="Slot 7"><br>
+                <input type="text" id="marking" name="marking8" placeholder ="Slot 8"><br>
+                <input type="text" id="marking" name="marking9" placeholder ="Slot 9"><br>
+                <input type="text" id="marking" name="marking10" placeholder ="Slot 10"><br><br>
+                <label for="threshhold">Threshhold:</label><br>
+                <input type="number" id="threshhold" name="threshhold" min="5" max="15"><br><br>
+                <input type="submit" value="Search!">
+            </form>
+        </div>
+        <div class = "result-div"></div>
     </div>
-    <div class = "result-div">
-    </div>
+    <script src="handler.js" type = "module"></script>
 </body>
-
-<script src="handler.js" type = "module"></script>
 </html>
