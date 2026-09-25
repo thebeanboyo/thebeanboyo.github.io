@@ -132,7 +132,7 @@ function readJSON(){
 }
 
 function results(){
-    let found = true;
+    let found = false;
     let customHtml = [];
     let resultDiv = document.querySelector(".result-div");
 
