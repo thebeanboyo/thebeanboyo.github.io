@@ -146,7 +146,6 @@ function results(){
                 t_html = '<div style="margin:5px;padding:5px;"><p><p>Shares '+countArr[i]+'/15 Traits with the ';
             }
             t_html+=jsonData[i].Date+" Raffle Lioness</p><ul>"
-            console.log(t_html);
 
             resultDiv.innerHTML += "<h3>"+jsonData[i].Date+"</h3><p>Shares "+countArr[i]+"/15 traits.</p>";
 
@@ -201,10 +200,11 @@ function results(){
 
 
             found = true;
+            console.log("found");
         }
-        console.log(customHtml);
     }
     if (!found) {
         resultDiv.innerHTML = "<h3>No Raffle Lionesses that share at least "+threshhold+"/15 traits found.</h3>";
+        console.log("not found");
     }
 }
