@@ -8,36 +8,39 @@
 
 <body>
     <h1>Raffle Lioness Search Tool</h1>
-    <div class = "main-page">
-        <div class = "form-div">
-            <form id = "main-form" autocomplete="off">
-                <label for="base">Base:</label><br>
-                <input type="text" id="base" name="base"><br>
-                <label for="skin">Skin Color:</label><br>
-                <input type="text" id="skin" name="skin"><br>
-                <label for="eyes">Eye Color:</label><br>
-                <input type="text" id="eyes" name="eyes"><br>
-                <label for="mane shape">Mane Shape:</label><br>
-                <input type="text" id="maneshape" name="maneshape"><br>
-                <label for="mane col">Mane Color:</label><br>
-                <input type="text" id="manecol" name="manecol"><br>
-                <label for="markings">Markings:</label><br>
-                <input type="text" id="marking" name="marking1" placeholder ="Slot 1"><br>
-                <input type="text" id="marking" name="marking2" placeholder ="Slot 2"><br>
-                <input type="text" id="marking" name="marking3" placeholder ="Slot 3"><br>
-                <input type="text" id="marking" name="marking4" placeholder ="Slot 4"><br>
-                <input type="text" id="marking" name="marking5" placeholder ="Slot 5"><br>
-                <input type="text" id="marking" name="marking6" placeholder ="Slot 6"><br>
-                <input type="text" id="marking" name="marking7" placeholder ="Slot 7"><br>
-                <input type="text" id="marking" name="marking8" placeholder ="Slot 8"><br>
-                <input type="text" id="marking" name="marking9" placeholder ="Slot 9"><br>
-                <input type="text" id="marking" name="marking10" placeholder ="Slot 10"><br><br>
-                <label for="threshhold">Threshhold:</label><br>
-                <input type="number" id="threshhold" name="threshhold" min="5" max="15"><br><br>
-                <input type="submit" value="Search!">
-            </form>
+    <div class = "parent-bg">
+        <p>This tool is NOT FINALIZED! It is a personal project I have been working on for a while and it's usable enough, however it is not really "user friendly". This tool is not affiliated with Lioden in any way! Please contact <a href="https://www.lioden.com/territory.php?id=148817">thebeanboyo (#144817)</a> on Lioden if you have issues here.</p>
+        <div class = "main-page">
+            <div class = "form-div">
+                <form id = "main-form" autocomplete="off">
+                    <label for="base">Base:</label><br>
+                    <input type="text" id="base" name="base"><br>
+                    <label for="skin">Skin Color:</label><br>
+                    <input type="text" id="skin" name="skin"><br>
+                    <label for="eyes">Eye Color:</label><br>
+                    <input type="text" id="eyes" name="eyes"><br>
+                    <label for="mane shape">Mane Shape:</label><br>
+                    <input type="text" id="maneshape" name="maneshape"><br>
+                    <label for="mane col">Mane Color:</label><br>
+                    <input type="text" id="manecol" name="manecol"><br>
+                    <label for="markings">Markings:</label><br>
+                    <input type="text" id="marking" name="marking1" placeholder ="Slot 1"><br>
+                    <input type="text" id="marking" name="marking2" placeholder ="Slot 2"><br>
+                    <input type="text" id="marking" name="marking3" placeholder ="Slot 3"><br>
+                    <input type="text" id="marking" name="marking4" placeholder ="Slot 4"><br>
+                    <input type="text" id="marking" name="marking5" placeholder ="Slot 5"><br>
+                    <input type="text" id="marking" name="marking6" placeholder ="Slot 6"><br>
+                    <input type="text" id="marking" name="marking7" placeholder ="Slot 7"><br>
+                    <input type="text" id="marking" name="marking8" placeholder ="Slot 8"><br>
+                    <input type="text" id="marking" name="marking9" placeholder ="Slot 9"><br>
+                    <input type="text" id="marking" name="marking10" placeholder ="Slot 10"><br><br>
+                    <label for="threshhold">Threshhold:</label><br>
+                    <input type="number" id="threshhold" name="threshhold" min="5" max="15"><br><br>
+                    <input type="submit" value="Search!">
+                </form>
+            </div>
+            <div class = "result-div"></div>
         </div>
-        <div class = "result-div"></div>
     </div>
     <script src="handler.js" type = "module"></script>
 </body>
