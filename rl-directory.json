@@ -14892,5 +14892,27 @@
             "Feline 4 Cimmerian (80%)"
         ],
         "Mutation": "None"
+    },
+    {
+        "Date": "September 25th, 2026",
+        "Base": "Snowdrift",
+        "Skin": "Pal",
+        "Genetics": "Black Light Countershaded Special",
+        "Eyes": "Terrazzo",
+        "ManeColor": "Sandstone",
+        "ManeShape": "Tsavo",
+        "Markings": [
+            "Almond Pelage (45%)",
+            "Latte Glaze (98%)",
+            "Pearl Ocelot (89%)",
+            "Black Dorsal Line (92%)",
+            "Blue Indri (30%)",
+            "Black Civet (58%)",
+            "Blue Burmese (53%)",
+            "Latte Points (61%)",
+            "Vitiligo 9 (43%)",
+            "Almond Rims (97%)"
+        ],
+        "Mutation": "None"
     }
 ]
