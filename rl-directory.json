@@ -14896,7 +14896,7 @@
     {
         "Date": "September 25th, 2026",
         "Base": "Snowdrift",
-        "Skin": "Pal",
+        "Skin": "Pale",
         "Genetics": "Black Light Countershaded Special",
         "Eyes": "Terrazzo",
         "ManeColor": "Sandstone",
@@ -14912,6 +14912,28 @@
             "Latte Points (61%)",
             "Vitiligo 9 (43%)",
             "Almond Rims (97%)"
+        ],
+        "Mutation": "None"
+    },
+    {
+        "Date": "October 2nd, 2026",
+        "Base": "Mouse Dun",
+        "Skin": "Plum",
+        "Genetics": "Black Medium Solid Special",
+        "Eyes": "Aquamarine",
+        "ManeColor": "Flint",
+        "ManeShape": "Savage",
+        "Markings": [
+            "Blue Crackle (40%)",
+            "Pearl Soft Unders (60%)",
+            "Lilac Kiang (30%)",
+            "Steele Civet (70%)",
+            "White Underfelt (80%)",
+            "Onyx Quail Flecks (80%)",
+            "Vitiligo 9 (90%)",
+            "Steele Panther (80%)",
+            "Appaloosa 1 Onyx (80%)",
+            "Onyx Mirage (90%)"
         ],
         "Mutation": "None"
     }
