@@ -14936,5 +14936,27 @@
             "Onyx Mirage (90%)"
         ],
         "Mutation": "None"
+    },
+    {
+        "Date": "October 9th, 2026",
+        "Base": "Snowpard",
+        "Skin": "Pale",
+        "Genetics": "Black Light Countershaded Rare",
+        "Eyes": "Iris",
+        "ManeColor": "Platinum",
+        "ManeShape": "Pariah",
+        "Markings": [
+            "Feline 9 Black (40%)",
+            "White Manchado (60%)",
+            "Dark Brown Civet (40%)",
+            "Appaloosa 1 Rhubarb (60%)",
+            "Feline 10 Silver (80%)",
+            "Pearl Siamese (50%)",
+            "Feline 4 Rhubarb (70%)",
+            "Pearl Kiang (25%)",
+            "Vitiligo 6 (80%)",
+            "White Lace (80%)"
+        ],
+        "Mutation": "None"
     }
 ]
