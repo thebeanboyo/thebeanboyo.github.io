@@ -14958,5 +14958,27 @@
             "White Lace (80%)"
         ],
         "Mutation": "None"
+    },
+    {
+        "Date": "October 16th, 2026",
+        "Base": "Witch",
+        "Skin": "Echo",
+        "Genetics": "Black Dark Countershaded Special",
+        "Eyes": "Hetero Doom & Struthio",
+        "ManeColor": "Cimmerian",
+        "ManeShape": "Pariah",
+        "Markings": [
+            "Cimmerian Pelage (65%)",
+            "Tangor Mantle (38%)",
+            "Feline 9 Cassis (100%)",
+            "Goridhe Civet (77%)",
+            "Feline 5 Cassis (100%)",
+            "Appaloosa 1 Fiery (67%)",
+            "Cimmerian Burmese (89%)",
+            "Tangor Underfur (58%)",
+            "Saffron Underfelt (74%)",
+            "Feline 2 Cimmerian (86%)"
+        ],
+        "Mutation": "None"
     }
 ]
