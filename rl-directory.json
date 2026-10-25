@@ -14980,5 +14980,27 @@
             "Feline 2 Cimmerian (86%)"
         ],
         "Mutation": "None"
+    },
+    {
+        "Date": "October 23rd, 2026",
+        "Base": "Temporal",
+        "Skin": "Greige",
+        "Genetics": "Red Dark Countershaded Special",
+        "Eyes": "Phase",
+        "ManeColor": "Algae",
+        "ManeShape": "Savage",
+        "Markings": [
+            "Algae Panther (100%)",
+            "Feline 3 Senegal (96%)",
+            "Feline 5 Cassis (100%)",
+            "Bushveld Crackle (100%)",
+            "Merlot Snuggle (82%)",
+            "Feline 10 Senegal (79%)",
+            "Feline 9 Cassis (70%)",
+            "Pistachio Rims (100%)",
+            "White Cobweb (44%)",
+            "Pistachio Shine (59%)"
+        ],
+        "Mutation": "Polycaudal"
     }
 ]
