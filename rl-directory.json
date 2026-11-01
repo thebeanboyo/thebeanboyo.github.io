@@ -15002,5 +15002,27 @@
             "Pistachio Shine (59%)"
         ],
         "Mutation": "Polycaudal"
+    },
+    {
+        "Date": "October 30th, 2026",
+        "Base": "Ater",
+        "Skin": "Welsummer",
+        "Genetics": "Red Dark Countershaded Special",
+        "Eyes": "Golden Shine",
+        "ManeColor": "Ebony",
+        "ManeShape": "Savage",
+        "Markings": [
+            "Fiery Aardwolf Streaks (30%)",
+            "Feline 1 Cimmerian (30%)",
+            "Red Civet (40%)",
+            "Noctis Cozy (50%)",
+            "Appaloosa 1 Goridhe (60%)",
+            "Feline 9 Cimmerian (60%)",
+            "Nudar Underfelt (100%)",
+            "Gold Freckles 3 (70%)",
+            "Leg Banding Auburn (30%)",
+            "Fiery Roan (40%)"
+        ],
+        "Mutation": "Overgrown Teeth"
     }
 ]
