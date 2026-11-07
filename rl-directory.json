@@ -15024,5 +15024,27 @@
             "Fiery Roan (40%)"
         ],
         "Mutation": "Overgrown Teeth"
+    },
+    {
+        "Date": "November 6th, 2026",
+        "Base": "Motlosi",
+        "Skin": "Quail",
+        "Genetics": "Cream Dark Solid Special",
+        "Eyes": "Calathea",
+        "ManeColor": "Cocoa",
+        "ManeShape": "Pariah",
+        "Markings": [
+            "Latte Quail Flecks (100%)",
+            "Outlaw Ictonyx (90%)",
+            "Spice Civet (40%)",
+            "Pearl Ocelot (80%)",
+            "Shell Soft Unders (80%)",
+            "Feline 3 Dark Brown (50%)",
+            "Nomad Aardwolf Streaks (30%)",
+            "Latte Lace (50%)",
+            "Appaloosa 1 Seal (30%)",
+            "Skyward Shine (90%)"
+        ],
+        "Mutation": "None"
     }
 ]
