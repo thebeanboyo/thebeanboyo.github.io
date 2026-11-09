@@ -117,7 +117,68 @@ div.result-div{
     min-width:20em;
 }
 
-div.custom-html{
+
+.main-header{
+    align-content: center;
+    background: var(--secondary-bg);
+    color: var(--box-text);
+    width: 75%;
+    padding: -2.5em;
+    padding-left:2.5em;
+    padding-right: 2.5em;
+    margin: 1em auto;
+    overflow: hidden;
+}
+
+footer{
+    align-content: center;
+    background: var(--secondary-bg);
+    color: var(--box-text);
+    width: 75%;
+    padding: 1em;
+    padding-left:3.3em;
+    padding-right: 3.3em;
+    margin: 1em auto;
+    overflow: hidden;
+    font-size:0.75em;
+}
+
+footer p{
+    margin:0.5em;
+}
+
+a{
+    color:rgb(122,78,87);
+    font-weight: bold;
+}
+
+h3 div.hovertxt{
+    display:none;
+}
+
+img{
+    width:7em;
     position: absolute;
-    left: 2em;
+    z-index:20;
+    margin-top:-2em;
+    margin-left:-4em;
+
+}
+
+.head-text-container{
+    margin-left:3em;
+}
+
+
+h3 .btn:hover + .hovertxt{
+    position: absolute;
+    display: block;
+    padding: 0.5em;
+    left:20em;
+    width: 8em;
+    text-align:center;
+    border-radius: 4px;
+    background-color: rgba(158, 101, 131, 0.9);
+    color: white;
+    font-size: 0.5em;
 }
