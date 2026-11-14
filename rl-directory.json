@@ -15046,5 +15046,27 @@
             "Skyward Shine (90%)"
         ],
         "Mutation": "None"
+    },
+    {
+        "Date": "November 13th, 2026",
+        "Base": "Nudar",
+        "Skin": "Pale",
+        "Genetics": "Golden Light Countershaded Special",
+        "Eyes": "Mire",
+        "ManeColor": "Damu",
+        "ManeShape": "Savage",
+        "Markings": [
+            "Brown Crackle (50%)",
+            "Vitiligo 2 (76%)",
+            "Fiery Roan (75%)",
+            "Appaloosa 1 Marigold (87%)",
+            "Vulpine Buckskin (100%)",
+            "Saffron Rogue (25%)",
+            "Red Panther (100%)",
+            "Fulvous Civet (100%)",
+            "Scoria Burmese (85%)",
+            "Almond Lace (64%)"
+        ],
+        "Mutation": "None"
     }
 ]
