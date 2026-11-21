@@ -15068,5 +15068,27 @@
             "Almond Lace (64%)"
         ],
         "Mutation": "None"
+    },
+    {
+        "Date": "November 20th, 2026",
+        "Base": "Iris",
+        "Skin": "Eggshell Blue",
+        "Genetics": "Red Light Countershaded Special",
+        "Eyes": "Phase",
+        "ManeColor": "Pulsar",
+        "ManeShape": "Savage",
+        "Markings": [
+            "Jellyfish Quail Flecks (100%)",
+            "Whisper Civet (80%)",
+            "Whisper Margay (60%)",
+            "Feline 5 Cimmerian (60%)",
+            "White Mottled Vents (90%)",
+            "Whisper Crumbing (20%)",
+            "Whisper Roan (60%)",
+            "Whisper Rims (70%)",
+            "Jellyfish Ardeida (70%)",
+            "Blue Burmese (30%)"
+        ],
+        "Mutation": "Mane Frizzy"
     }
 ]
